@@ -3,7 +3,7 @@
 В этом репозитори собраны мои реализации умных указателей в C++
 - [unique](./src/unique/unique.h)
 - [shared](./src/shared/shared.h)
-- [weak][./src/weak/weak.h]
+- [weak](./src/weak/weak.h)
 - [intrusive](./src/intrusive/intrusive.h)
 
 Также для реализации `UniquePtr` был написан класс [CompressedPair](./src/unique/compressed_pair.h) для более умного хранения объекта делитера внутри `UniquePtr`.
